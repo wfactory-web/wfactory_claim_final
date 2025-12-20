@@ -1,0 +1,37 @@
+/* ===== W FACTORY: premium base ===== */
+html, body {
+  background: #000;
+  color: #fff;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+/* Nice selection */
+::selection { background: rgba(0, 255, 200, 0.25); }
+
+/* Make buttons feel premium */
+button {
+  letter-spacing: 0.02em;
+  transform: translateZ(0);
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+/* Thirdweb connect button wrapper polishing (works even if classnames change) */
+[data-testid="tw-connect-button"],
+.tw-connect-button,
+button[class*="tw-"] {
+  border-radius: 16px !important;
+}
+
+/* Reduce ugly focus outlines but keep accessibility */
+:focus-visible {
+  outline: 2px solid rgba(0, 255, 200, 0.45);
+  outline-offset: 3px;
+}
