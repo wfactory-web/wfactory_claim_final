@@ -1,4 +1,5 @@
 // src/pages/claim/[code].tsx
+export const dynamic = "force-dynamic";
 import { useRouter } from "next/router";
 import { useMemo, useState, useEffect } from "react";
 
