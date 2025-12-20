@@ -49,8 +49,6 @@ private/
 next-env.d.ts
 
 # media / generated
-public/loading_ani.mp4
-public/certificate/
 public/certificates/
 
 # misc
