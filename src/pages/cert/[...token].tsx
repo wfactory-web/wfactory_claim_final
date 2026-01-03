@@ -250,7 +250,7 @@ export default function CertVaultPage() {
   function drawVerifiedWatermark(ctx: CanvasRenderingContext2D) {
     if (!verify) return;
 
-    const title = "CONGRATULATIONS OWNER OF LOST IN MULTIVERSE";
+    const title = "ORIGINAL OWNER INFORMATION";
     const owner = walletAddress || "";
     const nft = expectedContract;
     const chainName = "Polygon";
