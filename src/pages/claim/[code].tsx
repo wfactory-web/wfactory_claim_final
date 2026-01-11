@@ -532,9 +532,9 @@ export default function ClaimPage() {
                 <div className="rules">
                   <div className="rulesTitle">Rules</div>
                   <ul>
-                    <li>1 code → 1 mint only</li>
-                    <li>Code 15 → TokenId 14 (code − 1)</li>
-                    <li>Email wallet + MetaMask supported</li>
+                    <li>1 Code → 1 Mint Only</li>
+                    <li>Code 20 - Token 20</li>
+                    <li>Email Wallet + MetaMask Supported</li>
                     <li>Polygon Mainnet (137)</li>
                   </ul>
                 </div>
@@ -545,7 +545,7 @@ export default function ClaimPage() {
           </div>
         </div>
 
-        <div className="hint mono">Hover robot → premium holo scan + particles</div>
+        <div className="hint mono">Build By One</div>
       </div>
 
       <style jsx>{`
